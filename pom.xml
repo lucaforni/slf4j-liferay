@@ -4,7 +4,7 @@
 
   <groupId>com.liferay</groupId>
   <artifactId>slf4j-liferay</artifactId>
-  <version>1.7.12</version>
+  <version>1.7.25</version>
   <packaging>jar</packaging>
 
   <name>slf4j-liferay</name>
@@ -58,4 +58,21 @@
     </plugin>
     </plugins>
   </build>
+  
+  <repositories>
+    <repository>
+        <id>liferay-public-releases</id>
+        <name>Liferay Public Releases</name>
+        <url>https://repository.liferay.com/nexus/content/repositories/liferay-public-releases</url>
+    </repository>
+</repositories>
+
+<pluginRepositories>
+    <pluginRepository>
+        <id>liferay-public-releases</id>
+        <url>https://repository.liferay.com/nexus/content/repositories/liferay-public-releases/</url>
+    </pluginRepository>
+</pluginRepositories>
+
+
 </project>
